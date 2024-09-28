@@ -6,7 +6,38 @@
  user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <title>Bubble Game</title>
+    <!-- SEO Meta Tags -->
+    <meta name="title" content="Bubble Game - Bima Devs">
+    <meta name="description"
+        content="Mainkan Bubble Game dari Bima Devs! Pecahkan gelembung sebanyak mungkin dan kumpulkan skor tertinggi di game kasual ini.">
+
+    <meta name="keywords"
+        content="bubble game, bubble pop, permainan gelembung, game kasual, game online, pecahkan gelembung, permainan sederhana">
+    <meta name="author" content="Bima Devs">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags (untuk media sosial) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bimadevs.github.io/bubble-game/">
+    <meta property="og:title" content="Bubble Game - Bima Devs">
+    <meta property="og:description"
+        content="Pecahkan gelembung dan kumpulkan skor tertinggi di game kasual ini. Mainkan sekarang!">
+    <meta property="og:image" content="https://bimadevs.github.io/bubble-game/assets/og-image.jpg">
+    <!-- Ganti dengan gambar thumbnail game -->
+    <meta property="og:image:alt" content="Bubble Game Thumbnail">
+    <meta property="og:site_name" content="Bima Devs">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://bimadevs.github.io/bubble-game/">
+    <meta name="twitter:title" content="Bubble Game - Bima Devs">
+    <meta name="twitter:description"
+        content="Mainkan Bubble Game dari Bima Devs! Pecahkan gelembung sebanyak mungkin dan raih skor tertinggi.">
+    <meta name="twitter:image" content="https://bimadevs.github.io/bubble-game/assets/og-image.jpg">
+    <!-- Ganti dengan gambar thumbnail game -->
+    <meta name="twitter:image:alt" content="Bubble Game Thumbnail">
+
+    <title>Bubble Game - Bima Devs</title>
 </head>
 <style type="text/css">
     body {
@@ -21,6 +52,7 @@
         margin: 0 auto;
         background: #fff;
     }
+
     .container {
         display: flex;
         justify-content: center;
@@ -42,10 +74,10 @@
 <body>
     <div class="container">
         <div class="wrapper-btn">
-        <button onclick="bayi()">bayi</button>
-        <button onclick="medium()">medium</button>
-        <button onclick="mustahil()">mustahil</button>
-    </div>
+            <button onclick="bayi()">bayi</button>
+            <button onclick="medium()">medium</button>
+            <button onclick="mustahil()">mustahil</button>
+        </div>
         <canvas></canvas>
     </div>
     <script>
